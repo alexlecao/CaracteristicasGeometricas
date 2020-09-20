@@ -20,7 +20,9 @@ class MainProgram:
         self.ResultFont = Font(family='Arial', size=16)
         self.WarningFont = Font(size=50)
 
-        self.WindowsZoom = 100
+        self.WindowsZoom = 125
+
+
 
         self.Register = self.MainSpace.register(self.validate)
 
